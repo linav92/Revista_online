@@ -1,0 +1,22 @@
+$color_coral:coral;
+$color_steelblue: steelblue;
+$isabelline: #ECECEC;
+$light-gray: #D1D1D1;
+
+$montserrat: 'Montserrat', sans-serif;
+
+//Font Size
+$font-size-xxx-large: 50px;
+$font-size-xx-large: 30px;
+$font-size-x-large: 20px;
+$font-size-large: 18px;
+$font-size-medium: 16px;
+$font-size-small: 14px;
+$font-size-x-small: 12px;
+
+$breakpoints: (
+  'small': (min-width: 576px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 992px),
+  'extra-large': (min-width: 1200px),
+);

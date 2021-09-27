@@ -1,0 +1,35 @@
+.newsletter{
+    padding: 30px 50px 30px;
+    margin: auto;
+    width: 95%;
+    background-color: $light-gray;
+    font-family: 'Montserrat', sans-serif;
+    @include respond-to('medium'){
+        width: 80%;
+    }
+    h2{
+      font-size: $font-size-x-large;
+      font-weight: 700;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+    p{
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    &__group{
+        text-align: center;
+    }
+    &__button{
+        background-color: $color_coral;
+        color: white;
+        padding: 3px;
+        border: none;
+        outline:none;
+    }
+    &__input{
+        padding: 3px;
+        border: none;
+        outline:none;
+    }
+  }
